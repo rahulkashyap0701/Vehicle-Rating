@@ -1,0 +1,189 @@
+.font{
+font-family: Poppins;
+}
+#content {
+width: 50%;
+padding: 10px;
+}
+.viewallst{
+text-align: right;
+color: #2088d2
+}
+.button {
+background-color: #182752;
+border: none;
+color: white;
+border: 6px double #ffffff;
+padding: 18px 18px;
+text-align: center;
+font-size: 16px;
+margin: 4px 4px;
+opacity: 0.5;
+transition: 0.3s;
+display: inline-block;
+text-decoration: none;
+cursor: pointer;
+border-radius: 53px;
+outline: 0;
+}
+.button2{
+background-color: #353432; 
+}
+.button3{
+background-color: #cb1a22; 
+}
+.button4{
+background-color: #9e9e9e; 
+}
+.active{
+opacity: 1
+}
+.dflex{
+display: flex;
+}
+.carddiv{
+background: #2088d2;
+height: 28px;
+border-bottom-left-radius: 7px;
+border-bottom-right-radius: 7px;
+color: white;
+font-size: 22px;
+font-weight: bold;
+}
+.card{
+"width: 20%;
+height: 105px;
+border-radius: 7px;text-align: center;  
+box-shadow: 0px 0px 2px 0px;    
+margin-right: 20px;
+}
+.containerst{
+display: flex;    
+margin: auto;
+width: 92%;
+}
+@media  screen and (max-width: 800px) {
+#content {
+width: 100%;
+}
+.containerst {
+display: block;
+margin: auto;
+width: 92%;
+}
+}
+.ProgressBarBg {
+width: 100%;
+margin-bottom: 20px;
+}
+.ProgressBarBg .progress
+{
+position: relative;
+overflow: hidden;
+width: 100%;
+}
+.ProgressBarBg .ProgressBarBg-bar {
+display: block;
+float: left;
+width: 0%;
+height: 100%;
+background: #3798d9;
+box-shadow: inset 0px -1px 2px rgba(0, 0, 0, 0.1);
+-webkit-transition: width 3s ease-in-out;
+transition: width 3s ease-in-out;
+}
+.ProgressBarBg .ProgressBarBg-warning {
+background-color: #fde53a;
+}
+.progress {
+background-color: #ccc74761;
+border-radius: 9px;
+box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.progress .ProgressBarBg-bar {
+height: 18px;
+border-radius: 9px;
+}
+.progress .ProgressBarBg-label {
+line-height: 18px;
+}
+.rotate-center {
+position: absolute;
+left: -5px;
+top: 90px;
+z-index: 3;
+-webkit-animation: rotate-center 3.1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+animation: rotate-center 3.1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+@-webkit-keyframes rotate-center {
+0% {
+-webkit-transform: rotate(0);
+transform: rotate(0);
+-webkit-transform-origin: right;
+transform-origin: right;
+}
+100% {
+-webkit-transform: rotate(145deg);
+transform: rotate(145deg);
+-webkit-transform-origin: right;
+transform-origin: right;
+}
+}
+@keyframes rotate-center {
+0% {
+-webkit-transform: rotate(0);
+transform: rotate(0);
+-webkit-transform-origin: right;
+transform-origin: right;
+}
+100% {
+-webkit-transform: rotate(145deg);
+transform: rotate(145deg);
+-webkit-transform-origin: right;
+transform-origin: right;
+}
+}
+.progress-bar{
+position: relative;
+margin: 4px;
+float: left;
+text-align: center;
+}
+.barOverflow{ 
+position: relative;
+overflow: hidden;
+width: 184px;
+height: 102px;
+margin-bottom: 14px;
+}
+.bar{
+position: absolute;
+top: 2px;
+left: 2px;
+width: 178px;
+height: 177px;
+border-radius: 50%;
+box-sizing: border-box;
+border: 15px solid gray;
+border-bottom-color: #fde53a;
+border-right-color: #fde53a;
+transform: rotate(54deg);
+}
+
+.back {
+width: 15px;
+height: 15px;
+background: gray;
+position: absolute;
+}
+.spanst{
+font-size: 33px;
+font-weight: bold;
+}
+.overallst
+{
+font-size: 17px;
+font-weight: bold;
+color: grey;
+line-height: 0;
+}

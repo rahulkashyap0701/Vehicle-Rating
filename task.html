@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Vehicle Rating</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="assets/my.css">
+      <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+   <body>
+      <div class="containerst">
+         <div id="content">
+            <h2 class="font">Styles</h2>
+            <div style="text-align: center;">
+               <div id="featured_img">
+                  <img id="img" src="assets/blue.jpg" width="100%;">
+               </div>
+               <div id="thumb_img" class="cf">
+                  <button class="button active" onclick="changeimg('assets/blue.jpg',this);"></button>
+                  <button class="button button2" onclick="changeimg('assets/grey.jpg',this);"></button>
+                  <button class="button button3" onclick="changeimg('assets/red.jpg',this);"></button>
+                  <button class="button button4" onclick="changeimg('assets/silver.jpg',this);"></button>
+               </div>
+            </div>
+         </div>
+         <div id="content">
+            <h2 class="font">Ratings</h2>
+            <div style="display: flex;">
+               <div id="example-2" class="examples" style="width: 60%;">
+                  <div class="ProgressBarBg">
+                     <label class="font">Critics Ratings</label>
+                     <div class="dflex">
+                        <div class="progress">
+                           <div class="ProgressBarBg-bar ProgressBarBg-warning" data-percent="87" style="width: 87%;">
+                           </div>
+                        </div>
+                        <div> &nbsp;87</div>
+                     </div>
+                  </div>
+                  <div class="ProgressBarBg">
+                     <label class="font">Performace</label>
+                     <div class="dflex">
+                        <div class="progress">
+                           <div class="ProgressBarBg-bar ProgressBarBg-warning" data-percent="64" style="width: 64%;">
+                           </div>
+                        </div>
+                        <div> &nbsp;64</div>
+                     </div>
+                  </div>
+                  <div class="ProgressBarBg">
+                     <label class="font">Interior</label>
+                     <div class="dflex">
+                        <div class="progress">
+                           <div class="ProgressBarBg-bar ProgressBarBg-warning" data-percent="90" style="width: 90%;">
+                           </div>
+                        </div>
+                        <div> &nbsp;90</div>
+                     </div>
+                  </div>
+                  <div class="ProgressBarBg">
+                     <label class="font">Saftey</label>
+                     <div class="dflex">
+                        <div class="progress">
+                           <div class="ProgressBarBg-bar ProgressBarBg-warning" data-percent="44" style="width: 44%;">
+                           </div>
+                        </div>
+                        <div> &nbsp;44</div>
+                     </div>
+                  </div>
+                  <div class="ProgressBarBg">
+                     <label class="font">Reliability</label>
+                     <div class="dflex">
+                        <div class="progress">
+                           <div class="ProgressBarBg-bar ProgressBarBg-warning" data-percent="52" style="width: 52%;">
+                           </div>
+                        </div>
+                        <div> &nbsp;52</div>
+                     </div>
+                  </div>
+               </div>
+               <div style="margin:auto;">
+                  <div class="progress-bar" >
+                     <img src="assets/icon-meter.png" class="rotate-center" >
+                     <div class="barOverflow">
+                        <div class="bar"></div>
+                     </div>
+                     <span class="spanst font">86</span>%
+                     <p class="font overallst">OVERALL RATING</p>
+                  </div>
+               </div>
+            </div>
+            <div  class="font viewallst">
+               <h3>View All Rating</h3>
+            </div>
+            <div class="dflex">
+               <div class="card">
+                  <img src="assets/blue.jpg" style="width: 85%;">
+                  <div class="carddiv"> 8.3</div>
+               </div>
+               <div class="card">
+                  <img src="assets/grey.jpg" style="width: 85%;">
+                  <div class="carddiv"> 7.6</div>
+               </div>
+               <div class="card">
+                  <img src="assets/red.jpg" style="width: 85%;">
+                  <div class="carddiv"> 6.9</div>
+               </div>
+               <div class="card">
+                  <img src="assets/silver.jpg" style="width: 85%;">
+                  <div class="carddiv"> 9.0</div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="assets/my.js"></script>
+   </body>
+</html>
